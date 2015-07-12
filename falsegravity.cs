@@ -4,8 +4,8 @@ using System.Collections;
 //Attach this script to every object that you would like to be affected by the pull of both the planet and the moon.
 
 public class falsegravity : MonoBehaviour {
-	public float gravitationalAcceleration = 3; //The force that the object will be attracted toward the planet.
-	public float gravitationalAcceleration2 = 1; //The force that the object will be attracted toward the moon.
+	public float gravitationalAcceleration = 3; //The force with which the object will be attracted toward the planet.
+	public float gravitationalAcceleration2 = 1; //The force with which the object will be attracted toward the moon.
 	private Transform PlanetObject;
 	private Transform MoonObject;
 	public static bool useFalseGravity;
